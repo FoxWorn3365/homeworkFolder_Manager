@@ -1,6 +1,6 @@
 <?php
 // cerchiamo insieme la robba buona
-$query = str_replace("%20", " ", $_GET["q"]);
+$query = str_replace("%20", " ", $_GET["query"]);
 
 if (empty($q)) {
   echo "<h1>Index of Patreon/</h1><br><hr><br>";
